@@ -3,7 +3,6 @@
 
 def frequencies(items):
     frequencies = {}
-
     for i in range(len(items)):
         frequencies[str(items[i])] = 0
 
